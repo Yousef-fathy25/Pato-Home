@@ -1,0 +1,888 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+        <link rel="stylesheet" href="./style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Courgette&family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&display=swap"
+            rel="stylesheet">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Courgette&family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+            rel="stylesheet">
+    </head>
+    <body>
+
+        <!--   ===================   Nav Bar  ========================= -->
+        <nav class="nav">
+            <a class="logo-web" href="/index.html">
+                <p class="title-logo m-0 ">PATO</p>
+                <p class="sup-title m-0">RESTAURANT</p>
+            </a>
+            <div class="links">
+                <a href="/index.html">HOME</a>
+                <a href>MENU</a>
+                <a href>RESERVATION</a>
+                <a href>GALLERY</a>
+                <a href>ABOUT</a>
+                <a href>BLOG</a>
+                <a href>CONTACT</a>
+            </div>
+            <div class="social">
+                <a href>
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href>
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+                <a href>
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+            </div>
+            <div class="bars" style="cursor: pointer;">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+
+        </nav>
+
+
+        <!-- =====================    Headers  =================== -->
+
+        <header>
+            <div id="carouselExampleDark" class="carousel carousel-dark slide"
+                data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleDark"
+                        data-bs-slide-to="0" class="active" aria-current="true"
+                        aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark"
+                        data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark"
+                        data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active carousel-one"
+                        data-bs-interval="10000">
+                        <div class="header">
+                            <p class="welcome">welcome to</p>
+                            <p class="pato">PATO PLACE</p>
+                            <a class="menu">LOOK MENU</a>
+                        </div>
+                    </div>
+                    <div class="carousel-item carousel-two"
+                        data-bs-interval="2000">
+                        <div class="header">
+                            <p class="welcome">welcome to</p>
+                            <p class="pato">PATO <br class="br"> PLACE</p>
+                            <a class="menu">LOOK MENU</a>
+                        </div>
+                    </div>
+                    <div class="carousel-item carousel-three">
+                        <div class="header">
+                            <p class="welcome">welcome to</p>
+                            <p class="pato">PATO <br class="br"> PLACE</p>
+                            <a class="menu">LOOK MENU</a>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button"
+                    data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"
+                        aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button"
+                    data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"
+                        aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </header>
+
+        <!-- =====================    story section  =================== -->
+
+        <section>
+            <div class="story">
+                <div class="storyBox">
+                    <p class="titleRestaurant">Italian Restaurant</p>
+                    <p class="textWelcome">WELCOME</p>
+                    <p class="text">Donec quis lorem nulla. Nunc eu odio mi.
+                        Morbi nec lobortis est. Sed fringilla, nunc sed
+                        imperdiet lacinia, nisl ante egestas mi, ac facilisis
+                        ligula sem id neque. </p>
+                    <a href class="ourStory">OUR STORY <i
+                            class="fa-solid fa-arrow-right-long "
+                            style="margin-left: 5px;"></i></a>
+                </div>
+
+                <div class="image">
+                    <img src="./images/our-story-01.jpg" class="imageStory" alt>
+                </div>
+            </div>
+        </section>
+
+        <!-- =====================    Discover section  =================== -->
+
+        <section class="discover">
+            <div class="discoverBox">
+                <p class="textDiscover">Discover</p>
+                <p class="textPato">PATO PLACE</p>
+            </div>
+        </section>
+
+        <!-- =====================    category section  =================== -->
+
+        <section class="category">
+            <div class="categoryBox">
+                <div class="categoryCard">
+                    <div class="imageBox">
+                        <a href style="display: inline-block;">
+                            <img src="./images/intro-01.jpg" class="imageCard"
+                                alt>
+                        </a>
+                    </div>
+                    <div class="details">
+                        <a href class="titleCategory">ROMANTIC RESTAURANT</a>
+                        <p class="textCategory">Phasellus lorem enim, luctus ut
+                            velit eget, con-vallis egestas eros.</p>
+                        <a href class="learnMore">LEARN MORE <i
+                                class="fa-solid fa-arrow-right-long"
+                                style="margin-left: 5px;"></i></a>
+                    </div>
+                </div>
+
+                <div class="categoryCard">
+                    <div class="imageBox">
+                        <a href style="display: inline-block;">
+                            <img src="./images/intro-02.jpg" class="imageCard"
+                                alt>
+                        </a>
+                    </div>
+                    <div class="details">
+                        <a href class="titleCategory">Delicious Food</a>
+                        <p class="textCategory">Aliquam eget aliquam magna, quis
+                            posuere risus ac justo ipsum nibh urna</p>
+                        <a href class="learnMore">LEARN MORE <i
+                                class="fa-solid fa-arrow-right-long"
+                                style="margin-left: 5px;"></i></a>
+                    </div>
+                </div>
+
+                <div class="categoryCard">
+                    <div class="imageBox">
+                        <a href style="display: inline-block;">
+                            <img src="./images/intro-04.jpg" class="imageCard"
+                                alt>
+                        </a>
+                    </div>
+                    <div class="details">
+                        <a href class="titleCategory">Red Wines You Love</a>
+                        <p class="textCategory">Sed ornare ligula eget tortor
+                            tempor, quis porta tellus dictum.</p>
+                        <a href class="learnMore">LEARN MORE <i
+                                class="fa-solid fa-arrow-right-long"
+                                style="margin-left: 5px;"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- =====================    our menu section  =================== -->
+
+        <section class="ourMenu">
+            <div>
+                <div class="ourMenuBox">
+                    <p class="titleDiscover">Discover</p>
+                    <p class="textOurMenu">Our Menu</p>
+                </div>
+
+                <div>
+                    <div id="ourMenu">
+                        <div class="p01"
+                            style="background-image: url('./images/our-menu-01.jpg');">
+                            <div class="bt">launch</div>
+                        </div>
+                        <div class="p02"
+                            style="background-image: url('./images/our-menu-05.jpg');">
+                            <div class="bt">dinner</div>
+                        </div>
+                        <div class="p03"
+                            style="background-image: url('./images/our-menu-13.jpg');">
+                            <div class="bt">happy hours</div>
+                        </div>
+                        <div class="p04"
+                            style="background-image: url('./images/our-menu-10.jpg');">
+                            <div class="bt">drink</div>
+                        </div>
+                        <div class="p05"
+                            style="background-image: url('./images/our-menu-08.jpg');">
+                            <div class="bt">starters</div>
+                        </div>
+                        <div class="p06"
+                            style="background-image: url('./images/our-menu-16.jpg');">
+                            <div class="bt">desert</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- =====================    Events section  =================== -->
+
+        <section class="events">
+            <div class="containerEvent">
+                <div class="titleItem">
+                    <p class="titleUpcomming">Upcomming</p>
+                    <p class="titleEvents">Events</p>
+                </div>
+                <div id="secondCarouselExampleDark"
+                    class="carousel carousel-events carousel-dark slide"
+                    data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button"
+                            data-bs-target="#secondCarouselExampleDark"
+                            data-bs-slide-to="0" class="active"
+                            aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button"
+                            data-bs-target="#secondCarouselExampleDark"
+                            data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button"
+                            data-bs-target="#secondCarouselExampleDark"
+                            data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active carousel-eventOne"
+                            data-bs-interval="10000">
+                            
+                            <div class="eventBox">
+                                <div class="imageContainer">
+                                    <p class="textTime">
+                                        08:00 PM Tuesday - 21 November 2018
+                                    </p>
+                                </div>
+                                <div class="containerDetails">
+                                    <p class="titleEvent">
+                                        Wines during specific nights
+                                    </p>
+                                    <p class="detailsEvent">
+                                        Donec quis lorem nulla. Nunc eu odio mi.
+                                        Morbi nec lobortis est. Sed fringilla,
+                                        nunc sed imperdiet lacinia
+                                    </p>
+                                    <div></div>
+                                    <a href class="viewDetails">View details <i
+                                            class="fa-solid fa-arrow-right-long"
+                                            style="margin-left: 5px;"></i></a>
+                                </div>
+                                <div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item carousel-eventTwo"
+                            data-bs-interval="2000">
+                            <div class="eventBox">
+                                <div class="imageContainer">
+                                    <p class="textTime">
+                                        08:00 PM Tuesday - 21 November 2018
+                                    </p>
+                                </div>
+                                <div class="containerDetails">
+                                    <p class="titleEvent">
+                                        Wines during specific nights
+                                    </p>
+                                    <p class="detailsEvent">
+                                        Donec quis lorem nulla. Nunc eu odio mi.
+                                        Morbi nec lobortis est. Sed fringilla,
+                                        nunc sed imperdiet lacinia
+                                    </p>
+                                    <div></div>
+                                    <a href class="viewDetails">View details <i
+                                            class="fa-solid fa-arrow-right-long"
+                                            style="margin-left: 5px;"></i></a>
+                                </div>
+                                <div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item carousel-eventThree">
+                            <div class="eventBox">
+                                <div class="imageContainer">
+                                    <p class="textTime">
+                                        08:00 PM Tuesday - 21 November 2018
+                                    </p>
+                                </div>
+                                <div class="containerDetails">
+                                    <p class="titleEvent">
+                                        Wines during specific nights
+                                    </p>
+                                    <p class="detailsEvent">
+                                        Donec quis lorem nulla. Nunc eu odio mi.
+                                        Morbi nec lobortis est. Sed fringilla,
+                                        nunc sed imperdiet lacinia
+                                    </p>
+                                    <div></div>
+                                    <a href class="viewDetails">View details <i
+                                            class="fa-solid fa-arrow-right-long"
+                                            style="margin-left: 5px;"></i></a>
+                                </div>
+                                <div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button"
+                        data-bs-target="#secondCarouselExampleDark"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"
+                            aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button"
+                        data-bs-target="#secondCarouselExampleDark"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon"
+                            aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- =====================    Reservation section  =================== -->
+
+        <section class="reservation">
+            <div class="reservationBox">
+                <div class="headerReservation">
+                    <p class="titleReservation">Reservation</p>
+                    <p class="textBook">Book table</p>
+
+                    <form>
+                        <div class="form mb-4">
+                            <div class="inputsBox">
+                                <div class="field">
+                                    <label for="userName"
+                                        class="label">Name</label>
+                                    <input id="userName" type="text"
+                                        name="userName" class="input" required
+                                        placeholder="Name" />
+                                </div>
+                                <div class="field">
+                                    <label for="phone"
+                                        class="label">Phone</label>
+                                    <input id="phone" type="text" name="phone"
+                                        class="input" required
+                                        placeholder="Phone" />
+                                </div>
+                                <div class="field">
+                                    <label for="email"
+                                        class="label">Email</label>
+                                    <input id="email" type="email" name="email"
+                                        class="input" required
+                                        placeholder="Email" />
+                                </div>
+                            </div>
+                            <div class="inputsBox second-inputsBox">
+                                <div class="field">
+                                    <label for="date" class="label">Date</label>
+                                    <input id="date" type="date" class="input"
+                                        required />
+                                </div>
+                                <div class="field">
+                                    <label for="time" class="label">Time</label>
+                                    <input id="time" type="time" class="input"
+                                        required />
+                                </div>
+                                <div class="field">
+                                    <label for="people"
+                                        class="label">People</label>
+                                    <select id="people" class="input select"
+                                        required>
+                                        <option class="option" selected
+                                            value="1">1 people</option>
+                                        <option class="option" value="2">2
+                                            people</option>
+                                        <option class="option" value="3">3
+                                            people</option>
+                                        <option class="option" value="4">4
+                                            people</option>
+                                        <option class="option" value="5">5
+                                            people</option>
+                                        <option class="option" value="6">6
+                                            people</option>
+                                        <option class="option" value="7">7
+                                            people</option>
+                                        <option class="option" value="8">8
+                                            people</option>
+                                        <option class="option" value="9">9
+                                            people</option>
+                                        <option class="option" value="10">10
+                                            people</option>
+                                        <option class="option" value="11">11
+                                            people</option>
+                                        <option class="option" value="12">12
+                                            people</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <button type="submit" class="submit">BOOK
+                                TABLE</button>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="image ">
+                    <img src="./images/our-story-01.jpg" class="imageStory" alt>
+                </div>
+            </div>
+        </section>
+
+        <!-- =====================    Review section  =================== -->
+
+        <section class="review">
+            <div class="reviewBox">
+                <div class="reviewTitlewBox">
+                    <p class="titleCustomers">Customers Say</p>
+                    <p class="textReview">Review</p>
+                </div>
+
+                <div id="carouselExampleDarkThird"
+                    class="carousel  carousel-review carousel-dark slide"
+                    data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button"
+                            data-bs-target="#carouselExampleDarkThirdcarouselExampleDarkThird"
+                            data-bs-slide-to="0" class="active"
+                            aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button"
+                            data-bs-target="#carouselExampleDarkThirdcarouselExampleDarkThird"
+                            data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button"
+                            data-bs-target="#carouselExampleDarkThirdcarouselExampleDarkThird"
+                            data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner carouselComments">
+                        <div class="carousel-item active carousel-firstReview"
+                            data-bs-interval="10000">
+                            <div class="containerPeople">
+                                <div class="peopleImage">
+                                    <img src="./images/avatar-01.jpg"
+                                        class="imagePerson" alt>
+                                </div>
+                                <div class="commentPeople">
+                                    <p class="comment">
+                                        “ We are lorem ipsum dolor sit amet,
+                                        consectetur adipiscing elit. Aenean
+                                        tellus
+                                        sem, mattis in pre-tium nec, fermentum
+                                        viverra dui ”
+                                    </p>
+                                    <div class="containerStars">
+                                        <i class="fa-solid fa-star"
+                                            style="color: #ff0000; margin: 0.1px;"></i>
+                                        <i class="fa-solid fa-star"
+                                            style="color: #ff0000; margin: 0.1px;"></i>
+                                        <i class="fa-solid fa-star"
+                                            style="color: #ff0000; margin: 0.1px;"></i>
+                                        <i class="fa-solid fa-star"
+                                            style="color: #ff0000; margin: 0.1px;"></i>
+                                        <i class="fa-solid fa-star"
+                                            style="color: #ff0000; margin: 0.1px;"></i>
+                                    </div>
+                                    <p class="namePeople">
+                                        Marie Simmons ˗ New York
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item carousel-firstReview"
+                            data-bs-interval="2000">
+                            <div class="containerPeople">
+                                <div class="peopleImage">
+                                    <img src="./images/avatar-04.jpg"
+                                        class="imagePerson" alt>
+                                </div>
+                                <div class="commentPeople">
+                                    <p class="comment">
+                                        “ We are lorem ipsum dolor sit amet,
+                                        consectetur adipiscing elit. Aenean
+                                        tellus
+                                        sem, mattis in pre-tium nec, fermentum
+                                        viverra dui ”
+                                    </p>
+                                    <div class="containerStars">
+                                        <i class="fa-solid fa-star"
+                                            style="color: #ff0000;"></i>
+                                        <i class="fa-solid fa-star"
+                                            style="color: #ff0000;"></i>
+                                        <i class="fa-solid fa-star"
+                                            style="color: #ff0000;"></i>
+                                        <i class="fa-solid fa-star"
+                                            style="color: #ff0000;"></i>
+                                        <i class="fa-solid fa-star"
+                                            style="color: #ff0000;"></i>
+                                    </div>
+                                    <p class="namePeople">
+                                        Marie Simmons ˗ New York
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item carousel-firstReview">
+                            <div class="containerPeople">
+                                <div class="peopleImage">
+                                    <img src="./images/avatar-05.jpg"
+                                        class="imagePerson" alt>
+                                </div>
+                                <div class="commentPeople">
+                                    <p class="comment">
+                                        “ We are lorem ipsum dolor sit amet,
+                                        consectetur adipiscing elit. Aenean
+                                        tellus
+                                        sem, mattis in pre-tium nec, fermentum
+                                        viverra dui ”
+                                    </p>
+                                    <div class="containerStars">
+                                        <i class="fa-solid fa-star"
+                                            style="color: #ff0000;"></i>
+                                        <i class="fa-solid fa-star"
+                                            style="color: #ff0000;"></i>
+                                        <i class="fa-solid fa-star"
+                                            style="color: #ff0000;"></i>
+                                        <i class="fa-solid fa-star"
+                                            style="color: #ff0000;"></i>
+                                        <i class="fa-solid fa-star"
+                                            style="color: #ff0000;"></i>
+                                    </div>
+                                    <p class="namePeople">
+                                        Marie Simmons ˗ New York
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button"
+                        data-bs-target="#carouselExampleDarkThird"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"
+                            aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button"
+                        data-bs-target="#carouselExampleDarkThird"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon"
+                            aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- =====================   Our Video section  =================== -->
+
+        <section class="our-video">
+            <div class="videoBox">
+                <p class="textDiscover">Discover</p>
+                <p class="textVideo">Our Video</p>
+                <div class="play">
+                    <div class="playVideo">
+                        <i class="fa-solid fa-play"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="back"></div>
+        </section>
+
+        <!-- =====================   The Blog section  =================== -->
+
+        <section class="theBlog">
+            <div class="theBlogBox">
+                <p class="textLatest">Latest News</p>
+                <p class="textBlog">The Blog</p>
+            </div>
+
+            <div class="categoryBox pt-0">
+                <div class="blogCard">
+                    <div class="imageBoxBlog">
+                        <a href style="display: inline-block;">
+                            <img src="./images/blog-10.jpg" class="imageCard"
+                                alt>
+                        </a>
+                    </div>
+                    <div class="details">
+                        <a href class="titleCategory">Best Places for Wine</a>
+                        <p class="textCategory">Phasellus lorem enim, luctus ut
+                            velit eget, con-vallis egestas eros.</p>
+                        <a href class="learnMore">Continue Reading <i
+                                class="fa-solid fa-arrow-right-long"
+                                style="margin-left: 5px;"></i></a>
+                    </div>
+                </div>
+
+                <div class="blogCard">
+                    <div class="imageBoxBlog">
+                        <a href style="display: inline-block;">
+                            <img src="./images/blog-09.jpg" class="imageCard"
+                                alt>
+                        </a>
+                    </div>
+                    <div class="details">
+                        <a href class="titleCategory">Eggs and Cheese</a>
+                        <p class="textCategory">Duis elementum, risus sit amet
+                            lobortis nunc justo condimentum ligula, vitae
+                            feugiat</p>
+                        <a href class="learnMore">Continue Reading<i
+                                class="fa-solid fa-arrow-right-long"
+                                style="margin-left: 5px;"></i></a>
+                    </div>
+                </div>
+
+                <div class="blogCard">
+                    <div class="imageBoxBlog">
+                        <a href style="display: inline-block;">
+                            <img src="./images/blog-08.jpg" class="imageCard"
+                                alt>
+                        </a>
+                    </div>
+                    <div class="details">
+                        <a href class="titleCategory">Style the Wedding
+                            Party</a>
+                        <p class="textCategory">Sed ornare ligula eget tortor
+                            tempor, quis porta tellus dictum.</p>
+                        <a href class="learnMore">Continue Reading <i
+                                class="fa-solid fa-arrow-right-long"
+                                style="margin-left: 5px;"></i></a>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- =====================   Sign up section  =================== -->
+
+        <section class="signUp">
+            <div class="containerForm">
+                <form class="formEmail">
+                    <label for="specialsEmail" class="specialsEmail">Specials
+                        Sign up</label>
+                    <input id="specialsEmail" class="inputEmail" type="email"
+                        name="specialsEmail" required
+                        placeholder="Email Addrress" />
+                    <button class="submitBtn" type="submit">SIGN-UP</button>
+                </form>
+            </div>
+        </section>
+
+        <!-- =====================   Footer  =================== -->
+
+        <section id="footer">
+            <div class="row row-cols-lg-3 row-cols-md-2 row-cols-sm-1 g-3">
+                <div id="allContacts" class="col">
+
+                    <div>
+                        <h2>
+                            Contact Us
+                        </h2>
+                        <div class="container">
+                            <div class="row my-4">
+                                <div class="col-1">
+                                    <i class="fa fa-map-marker"></i>
+                                </div>
+                                <div class="col">
+                                    8th floor, 379 Hudson St, New York, NY 10018
+                                </div>
+                            </div>
+                            <div class="row mb-4">
+                                <div class="col-1">
+                                    <i class="fa-solid fa-phone"></i>
+                                </div>
+                                <div class="col">
+                                    (+1) 96 716 6879
+                                </div>
+                            </div>
+                            <div class="row mb-4">
+                                <div class="col-1">
+                                    <i class="fa-solid fa-envelope"></i>
+                                </div>
+                                <div class="col">
+                                    contact@site.com
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <h2>
+                            Opening Times
+                        </h2>
+                        <br>
+                        <p>09:30 AM – 11:00 PM
+                            <br>
+                            Every Day</p>
+                    </div>
+
+                </div>
+                <div class="col">
+                    <h2>
+                        Latest twitter
+                    </h2>
+                    <div class="container">
+
+                        <div class="row">
+                            <div class="col-1">
+                                <i class="fa-brands fa-twitter"></i>
+                            </div>
+                            <div class="col">
+                                <a
+                                    href="https://twitter/@colorlib">@colorlib</a>
+                            </div>
+                        </div>
+                        <p class="m-0">
+                            Activello is a good option. It has a slider built
+                            into that displays the featured image in the slider.
+                        </p>
+                        <a class="mb-4 d-inline-block"
+                            href="https://buff.ly/2zaSfAQ">
+                            https://buff.ly/2zaSfAQ
+                        </a>
+                        <p>
+                            21 Dec 2017
+                        </p>
+
+                        <div class="row">
+                            <div class="col-1">
+                                <i class="fa-brands fa-twitter"></i>
+                            </div>
+                            <div class="col">
+                                <a
+                                    href="https://twitter/@colorlib">@colorlib</a>
+                            </div>
+                        </div>
+                        <p class="m-0">
+                            Activello is a good option. It has a slider built
+                            into that displays the featured image in the slider.
+                        </p>
+                        <a class="mb-4 d-inline-block"
+                            href="https://buff.ly/2zaSfAQ">
+                            https://buff.ly/2zaSfAQ
+                        </a>
+                        <p>
+                            21 Dec 2017
+                        </p>
+
+                    </div>
+                </div>
+                <div class="col">
+                    <h2>
+                        GALLERY
+                    </h2>
+
+                    <div class="container gallery">
+                        <div class="row">
+                            <div class="col m-1"
+                                style="background-image: url('images/photo-gallery-thumb-01.jpg');">
+                                <div></div>
+                            </div>
+                            <div class="col m-1"
+                                style="background-image: url('images/photo-gallery-thumb-02.jpg');">
+                                <div></div>
+                            </div>
+                            <div class="col m-1"
+                                style="background-image: url('images/photo-gallery-thumb-03.jpg');">
+                                <div></div>
+                            </div>
+                            <div class="col m-1"
+                                style="background-image: url('images/photo-gallery-thumb-04.jpg');">
+                                <div></div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col m-1"
+                                style="background-image: url('images/photo-gallery-thumb-05.jpg');">
+                                <div></div>
+                            </div>
+                            <div class="col m-1"
+                                style="background-image: url('images/photo-gallery-thumb-06.jpg');">
+                                <div></div>
+                            </div>
+                            <div class="col m-1"
+                                style="background-image: url('images/photo-gallery-thumb-07.jpg');">
+                                <div></div>
+                            </div>
+                            <div class="col m-1"
+                                style="background-image: url('images/photo-gallery-thumb-08.jpg');">
+                                <div></div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col m-1"
+                                style="background-image: url('images/photo-gallery-thumb-09.jpg');">
+                                <div></div>
+                            </div>
+                            <div class="col m-1"
+                                style="background-image: url('images/photo-gallery-thumb-10.jpg');">
+                                <div></div>
+                            </div>
+                            <div class="col m-1"
+                                style="background-image: url('images/photo-gallery-thumb-11.jpg');">
+                                <div></div>
+                            </div>
+                            <div class="col m-1"
+                                style="background-image: url('images/photo-gallery-thumb-12.jpg');">
+                                <div></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- =====================  Second footer  =================== -->
+
+        <section class="secondFooter">
+            <div class="containerEndFooter">
+                <div class="iconSocial">
+                    <a href>
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href>
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                    <a href>
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                </div>
+                <div class="copyRight">
+                    Copyright © 2018 All rights reserved | This template is made
+                    <i class="fa-solid fa-heart"></i> by <span><a href
+                            class="colorlib">Yousef Fathy Saleh</a></span>
+                </div>
+            </div>
+        </section>
+
+        <!-- ====================   Button up  ============= -->
+
+        <button class="btnUp anime">
+            <i class="fa-solid fa-angles-up" style="color: white;"></i>
+        </button>
+
+        <script src="./main.js"></script>
+        <script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>
